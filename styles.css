@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #e0e0e0;
+    background-image: url('space.jpg'); /* Replace 'your-image-url.jpg' with the URL of your image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+}
+
+header {
+    background-color: #27cae33a;
+    color: #f00909;
+    padding: 10px 0;
+}
+
+h2{
+    color:powderblue;
+    
+}
+p{
+    color:white;
+}
+header h1 {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #48bb12;
+    font-weight: bold;
+}
+
+.portfolio {
+    max-width: 600px; /* Adjust the max-width to fit your layout */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.portfolio img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.project {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+section h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #d436366b;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form label,
+form input,
+form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    border: 1px solid #7a0808;
+}
+
+form button {
+    width: 100%;
+}
+.profile-image {
+    text-align: center; /* Align the image to the center */
+    margin-bottom: 20px; /* Add some space below the image */
+}
+
+.profile-image img {
+    width: 400px; /* Adjust the width of the image */
+    height: 300px; /* Adjust the height of the image */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
+}
+
+
